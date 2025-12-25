@@ -1,0 +1,6 @@
+*.csv
+!ParameterSet.csv
+
+__pycache__/
+*.pyc
+.vscode/
