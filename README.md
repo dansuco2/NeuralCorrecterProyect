@@ -226,7 +226,10 @@ The script `RandomValues.py` is used to evaluate the effectiveness and generaliz
 
 Before running this script, the user must modify the following variables:
 
-1. Set the correct path to the trained model:  ckpt_path = "/content/multi_DELTA_resnet_corrector_0.5.pth"
+1. Set the correct path to the trained model:  
+
+```python
+ckpt_path = "/content/multi_DELTA_resnet_corrector_0.5.pth"
 
 2. Ensure that the time step size matches the model being used: h = delta = 0.5
 
@@ -266,8 +269,10 @@ If you use this code or build upon this work, please cite the associated paper.
 
 **Daniel Sierra**
 Department of Applied Mathematics
+
 **Rubén Darío Ortiz Ortiz**
 **Ana Magnolia Marín Ramírez**
+
 Faculty of Exact and Natural Sciences, University of Cartagena, Colombia
 ONDAS Research Group
 ---
