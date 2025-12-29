@@ -169,9 +169,8 @@ Since 100 parameter combinations are used and 1000 points are generated for each
 
 **Output**
 
-The script produces a CSV file named: data_h_<Δt>.csv
-
-For example, when Δt = 0.5: data_h_0.5.csv
+The script produces a CSV file named: `data_h_<Δt>.csv`
+For example, when Δt = 0.5: `data_h_0.5.csv`
 
 In addition to the parameters `a, b, c, d, N0, P0`, the dataset includes the following columns:
 
@@ -201,9 +200,9 @@ The script `NeuralCorrector.py` is responsible for training the neural network u
 
 **Output**
 
-The trained model is saved as: multi_DELTA_resnet_corrector_<Δt>.pth
+The trained model is saved as: `multi_DELTA_resnet_corrector_<Δt>.pth`
 
-For example, when Δt = 0.5: multi_DELTA_resnet_corrector_0.5.pth
+For example, when Δt = 0.5: `multi_DELTA_resnet_corrector_0.5.pth`
 
 
 At the end of the training process, the script also plots the **training and validation loss curves**.
@@ -230,9 +229,12 @@ Before running this script, the user must modify the following variables:
 
 ```python
 ckpt_path = "/content/multi_DELTA_resnet_corrector_0.5.pth"
+```
 
-2. Ensure that the time step size matches the model being used: h = delta = 0.5
-
+2. Ensure that the time step size matches the model being used: 
+```python
+h = delta = 0.5
+```
 The value of Δt used during evaluation must coincide with the value used during training.
 
 ---
@@ -267,14 +269,13 @@ If you use this code or build upon this work, please cite the associated paper.
 
 ## 👤 Authors
 
-**Daniel Sierra**
-Department of Applied Mathematics
+**Daniel Sierra**<br>
+Department of Applied Mathematics<br><br>
 
-**Rubén Darío Ortiz Ortiz**
-**Ana Magnolia Marín Ramírez**
-
-Faculty of Exact and Natural Sciences, University of Cartagena, Colombia
+**Rubén Darío Ortiz Ortiz** and **Ana Magnolia Marín Ramírez**<br>
+Faculty of Exact and Natural Sciences, University of Cartagena, Colombia<br>
 ONDAS Research Group
+
 ---
 
 ## 📝 License
